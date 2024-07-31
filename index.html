@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header b-color">
         <!-- Navbar Starts Here -->
          <nav class="navbar d-flex">
             <h1 class="fit">Fitness</h1>
@@ -23,7 +23,7 @@
             <div class="banner-title d-flex">
                 <div class="banner-content">
                     <h1 class="health">Get body in <br> <span class="font">shape</span> & stay <br> healthy</h1>
-                    <p class="b-text">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit </p>
+                    <p class="b-text">A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit </p>
                     <button class="btn-primary">Join Club Now</button>
                     <button class="btn"> Download App </button>
                 </div>
@@ -31,38 +31,133 @@
             </div>
          <!-- Banner Section End -->
     </header>
-    <main class="main-color">
-        <section>
+
+    <main class="b-color">
+        <section class="change-habit">
             <!-- change habit starts-->
              <div class="habit">
-                <h2>Change Your Habits</h2>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <h2 class="text-h w-color">Change Your Habits</h2>
+                <p class=" text-p gray-c">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
              </div>
-            <div class="d-flex">
-                <div>
+            <div class="habit-title d-flex">
+                <div class="a-1">
                     <img  class="br-img" src="./images/img-2.png" alt="">
-                    <h1>Movement</h1>
-                    <p>We believe fitness should be accessible to everyone</p>
+                    <h1 class="mv-1">Movement</h1>
+                    <p class="gray-c">We believe fitness should be accessible to everyone</p>
                  </div>
-                 <div>
-                    <img class="br-img" src="./images/img-3.png" alt="">
-                    <h1>Movement</h1>
-                    <p>We believe fitness should be accessible to everyone</p>
-                 </div>
-                 <div>
-                    <img class="br-img" src="./images/img-4.png" alt="">
-                    <h1>Movement</h1>
-                    <p>We believe fitness should be accessible to everyone</p>
-                 </div>
-                 <div>
-                    <img class="br-img" src="./images/img-5.png" alt="">
-                    <h1>Movement</h1>
-                    <p>We believe fitness should be accessible to everyone</p>
-                 </div>
+                    <div class="a-1">
+                        <img class="br-img" src="./images/img-3.png" alt="">
+                        <h1 class="mv-1">Time</h1>
+                        <p class="gray-c">We believe fitness should be accessible to everyone</p>
+                     </div>
+                     <div class="a-1"> 
+                        <img class="br-img" src="./images/img-4.png" alt="">
+                        <h1 class="mv-1">Practice</h1>
+                        <p class="gray-c">We believe fitness should be accessible to everyone</p>
+                     </div>
+                     <div class="a-1">
+                        <img class="br-img" src="./images/img-5.png" alt="">
+                        <h1 class="mv-1">Weight Loss</h1>
+                        <p class="gray-c">We believe fitness should be accessible to everyone</p>
+                     </div>
             </div>
-             <!-- change habit end -->
         </section>
+             <!-- change habit end -->
+
+             <!-- Run Section Start -->
+              <section class="run d-flex">
+                <div class="run-card d-flex">
+                    <h1>Run an Extra <br>
+                        Mile Easily</h1>
+                    <p>We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. <br> With 
+                        hundreds of professional workouts.</p>
+                    <button class="btn-primary"> Join Now </button>
+                </div>
+                <div class="run-image">
+                    <img width="370px" height="312px" src="./images/run.jpg" alt="run-img">
+                </div>
+              </section>
+              <!-- Run Section Ends -->
+               <!-- BMI section start -->
+            <section class="bmi-chart d-flex">
+               <div class="bmi-table">
+                    <h1 class="bmi-text"> BMI Calculator Chart</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="w-color">BMI</th>
+                                <th class="w-color">Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="gray-c">
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>   
+                            </tr>
+                            <tr>
+                                <td>18.5-24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0-29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0- and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bmi-form">
+                    <h1 class="w-color">Calculate Your BMI</h1>
+                    <P class="gray-c">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym</P>
+                    <form>
+                        <label for="height">
+                            <input type="text" placeholder="Height/cm" name="" id="">
+                        </label>
+                        <label for="Weight">
+                            <input type="text" name="" id="">
+                        </label>
+                        <label for="Age">
+                            <input type="number" name="age" id="">
+                        </label>
+                        <label for="">
+                            <input type="text" name="" id="">
+                        </label>
+                        <label for="">
+                            <input type="text" name="" id="">
+                        </label>
+                    </form>
+                    <button class="btn-primary">Calculate</button>
+                </div>
+            </section>
+              <!-- BMI section end -->
+
+              <!-- Our Team Section Start -->
+               <section class="our-team">
+                <div class="team">
+                    <h1 class="w-color">Meet Our Team</h1>
+                    <p class="gray-c">We believe fitness should be accessible to everyone, everywhere, regardless of income 
+                        or <br> access to a gym.</p>
+                    <div class="team-img">
+                        <img src="./images/trainer1.png" alt="">
+                        <img src="./images/trainer2.png" alt="">
+                        <img src="./images/trainer3.png" alt="">
+                        <img src="./images/trainer4.png" alt="">
+                        <img src="./images/trainer5.png" alt="">
+                        <img src="./images/trainer6.png" alt="">
+                    </div>
+                  </div>
+               </section>
+               <!-- Our Team Section End -->
     </main>
-    <footer></footer>
+    <footer>
+        <!-- <div>
+            <h1 class="fit">Fitness</h1>
+            <p class="b-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of 
+                professional workouts.</p>
+        </div> -->
+    </footer>
 </body>
 </html>
