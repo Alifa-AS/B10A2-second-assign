@@ -195,10 +195,16 @@ nav li a{
 .run-image{
     margin: 20px;
     border: 2px solid red;
-    object-fit: none;
-    object-position: 66% 30%;
-}
+    object-fit: cover;
+    overflow: hidden;
+    width: 350px;
 
+}
+.run-image img{
+ 
+   height: 100%;
+   transform: translate(-45% , 30%) scale(2.5);
+}
  /* run section ends */
 
 
