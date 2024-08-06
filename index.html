@@ -122,28 +122,33 @@
                 </div>
                 <div class="bmi-form">
                     <h1 class="w-color">Calculate Your BMI</h1>
-                    <P class="gray-c">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym</P>
+                    <P class="gray-c">We believe fitness should be accessible to everyone, everywhere, <br>regardless of  income or access to a gym</P>
                     <form class="cal-form">
-                        <label for="height">
+                        <label for="height" class="child-1">
                             <input type="text" placeholder="Height/cm" name="" id="">
                         </label>
-                        <label for="Weight">
+                        <label for="Weight" class="child-2">
                             <input type="text" name="" id="">
                         </label>
-                        <label for="Age">
+                        <label for="Age" class="child-3">
                             <input type="number" name="age" id="">
                         </label>
-                        <label for="">
-                            <input type="text" name="" id="">
+                        <label for="" class="child-4">
+                            <input type="text" name="sex" id="sex">
+                            <select name="sex" id="">
+                                <option value="men"></option>
+                                <option value="women"></option>
+                                <option value="others"></option>
+                            </select>
                         </label>
-                        <label for="">
-                            <input type="text" name="" id="">
-                        </label> 
+                        <label for="" class="child-5">
+                            <input type="text" placeholder="Select an activity factor " name="" id="">
+                            <select name="" id="">
+
+                            </select>
+                        </label>
+                            <input class="submit" type="submit" value="submit">
                     </form>
-                    <!-- <input class="btn-primary" type="submit" value=""> -->
-                    
-                    
-                    
                 </div>
             </section>
               <!-- BMI section end -->
@@ -192,12 +197,31 @@
                </section>
                <!-- Our Team Section End -->
     </main>
-    <footer class="foot">
-        <div>
-            <h1 class="fit">Fitness</h1>
-            <p class="b-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of 
-                professional workouts.</p>
-        </div>
+    <footer class="foot d-flex">
+            <div class="footer">
+                <h1 class="fit">Fitness</h1>
+                <p class="b-text">We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. With <br> hundreds of 
+                    professional workouts.</p>
+            </div>
+            <div class="f-text">
+                <h2 class="w-color">Get Started</h2>
+                <div class="gray-c">
+                    <p>Service</p>
+                    <p>contact Us</p>
+                    <p>Affiliate Program</p>
+                    <p>About Us</p>
+                </div>
+            </div>
+            <div class="f-text">
+                <h2 class="w-color">Get Started</h2>
+                <div class="gray-c">
+                    <p>Fitness</p>
+                    <p>Platform</p>
+                    <p>Workout Library</p>
+                    <p>App Design</p>
+                </div>
+            </div>
     </footer>
+    <hr>
 </body>
 </html>
