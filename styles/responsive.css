@@ -133,11 +133,27 @@
         display: none;
     }
     /* footer */
+    .footer-main{
+       height: 700px;
+    }
     .foot{
         flex-direction: column;
         max-width: 100%;
     }
-    .f-text{
-        height: 700px;
+    .footer{
+        width: 100%;
+        margin-left: 0px;
     }
+    .footer p{
+        line-height: 20px;
+        margin-left: 20px;
+    }
+    .f-text{
+        width: 80%;
+        padding-top: 10px;
+    }
+    .last-content{
+        margin-top: 70%;
+    }
+       
  }

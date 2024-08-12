@@ -463,7 +463,7 @@ input[type=submit]:hover{
 /* Our Team  Style Start */
 
 .our-team{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 20px;
   max-width: 1120px;
   margin: 0 auto;
@@ -547,8 +547,6 @@ input[type=submit]:hover{
     align-items: center;
     height: 400px;
     margin-bottom: 40px;
-
-
     /* max-width: 1440px; */
     /* border: 2px solid red; */
 }
