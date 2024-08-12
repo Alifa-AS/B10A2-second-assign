@@ -1,0 +1,143 @@
+/* responsive */
+@media screen and (max-width: 576px) {
+    .header{
+        margin-left: 30px;
+        padding-bottom: 0px;
+    }
+    .ham-menu{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding-right: 20px;
+    }
+    .navbar{
+        display: none;
+    }
+    .banner-title{
+        flex-direction: column;
+    }
+    .banner-content{
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .health{
+        font-size: 3rem;
+        line-height: 60px;
+    } 
+    .fit{
+        font-size: 3rem;
+    }
+    .banner-img{
+        margin-left: 10px;
+        margin-top: 0px;
+    } 
+    .p-icon img{
+      display: none;
+    }
+
+    .card-1{
+        max-width: 100%;
+        top: -380px;
+        left: 200px;
+    }
+    .card-2{
+        max-width: 100%;
+        top: -100px;
+        left: 0px;
+    }
+
+    /* habit */
+    .change-habit{
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .habit-title{
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+    }
+    .text-h{
+        font-size: 2.2rem;
+    }
+    .text-p{
+        padding: 5px;
+    }
+    .a-1{
+        margin: 10px;
+    }
+    .mv-1{
+        margin-top: 10px;
+     }
+    /* run */
+    .run{
+        flex-direction: column;
+        max-width: 100%;
+        /* width: 80%; */
+        height: 480px;
+        align-items: center;
+    }
+    .run-card{
+        flex-direction: column;
+        width: 100%;
+        margin: 20px;
+        padding: 0px 20px;
+    }
+
+    .run-card h1{
+        font-size: 2rem;
+     }
+     .run-card p{
+        font-size: 0.7rem;
+     }
+     .run-card button{
+        width: 100%;
+     }
+    .run-image img{
+        width: 100%;
+    }
+    
+    /* BMI */
+    .bmi-content{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .bmi-head{
+        padding: 0;
+    }
+    .bmi-head h1{
+        font-size: 2rem;
+    }
+    .bmi-table, .bmi-form{
+        align-items: center;
+        margin: 0;
+        width: 100%;
+     }
+     .table-content{
+        width: 80%;
+     }
+     .form-content{
+        padding: 0px;
+    }
+    .cal-form{
+        margin: 0px;
+    }
+
+    /* meet-team */
+    .team-img{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .special-1{
+        display: none;
+    }
+    /* footer */
+    .foot{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .f-text{
+        height: 700px;
+    }
+ }
