@@ -1,3 +1,105 @@
+*{
+    background-image: linear-gradient(to bottom, #000000, #232222, #413f40, #625f5f, #848080, #848080, #848080, #848080, #625f5f, #413f40, #232222, #000000);
+
+}
+/* BMI section style start */
+.bmi-main-section{
+    max-width: 100%;
+    padding: 30px;
+    /* border: 2px solid red; */
+}
+.bmi-head{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 auto;
+    max-width: 670px;
+    padding: 30px;
+ }
+
+.bmi-head h1{
+    color: white;
+    font-size: 2.2rem;
+    padding: 7px;
+}
+.bmi-head p{
+    color: gray;
+    font-size: .8rem;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.bmi-content{
+    max-width: 100%;
+    /* height: 500px; */
+    /* margin: 0 auto; */
+    border: 2px solid red;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(35, 33, 33, 0.817);
+    box-sizing: border-box;
+}
+
+.bmi-table, .bmi-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    width: 50%;
+    /* width: 400px;
+    height: 310px; */
+ }
+
+.bmi-table{
+    width: 300px;
+    /* border: 2px solid yellow; */
+}
+.bmi-table h1{
+    /* margin: -10px; */
+}
+.bmi-text{
+    color: white;
+    padding: 50px;
+}
+
+.bmi-table th,td{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    /* border-collapse: collapse; */
+}
+.table-content{
+    border-collapse: collapse;
+}
+
+.bmi-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    /* border: 2px solid yellow; */
+    padding: 10px;
+    width: 100%;
+   
+}
+.form-content h1{
+    padding: 10px;
+}
+.form-content p{
+    padding: 10px;
+}
+.cal-form{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: repeat(12, 1fr); */
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+.cal-form input{
+     /* margin-top: 20px; */
+     padding: 10px;
+}
+
 .child-1{
     /* background-color: gray; */
     grid-column: 1/span 6;
@@ -38,3 +140,55 @@
 
     /* height: 48px; */
 }
+ 
+input[type=text] , select, ::placeholder{
+    border: 1px solid gray;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: rgb(54, 53, 53);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+
+}
+
+input[type=submit]{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    font-size: 1rem;
+    padding: 13px 40px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+   
+}
+
+input[type=submit]:hover{
+    background-color: rgb(0, 255, 166);
+}
+/* BMI section style End */
+ /*<form class="cal-form">
+                        <div class="child-1">
+                                <input type="text" placeholder="Height/cm" name="" id="">
+                        </div>
+                        <div class="child-2">
+                                <input type="text" placeholder="Weight" name="" id="">
+                        </div>
+                        <div class="child-3">
+                                <input type="text" placeholder="Age" name="age" id="">
+                        </div>
+                            <div class="child-4">
+                                    <select name="sex" id="sex">
+                                        <option value="men">Sex</option>
+                                        <option value="women">men</option>
+                                        <option value="others">women</option>
+                                    </select>
+                            </div>
+                        <div class="child-5">
+                                <select name="Select an activity factor" id="activity">
+                                    <option value="activity">Select an activity factor</option>
+                                    <option value="activity">play games</option>
+                                </select>
+                        </div>
+                    </form>
+                    <input  type="submit" value="submit">-->

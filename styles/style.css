@@ -7,10 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 body{
+    max-width: 1440px;
+    margin: 0 auto;
     font-family: "Inter", sans-serif;
-    background-color: rgba(17, 17, 17);
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-    background-image: linear-gradient(to bottom, #0d0d0d, #171717, #1b1a1a, #d2d0d0, #999898, #060404);
+    background-color: #000000;
   }
 *{
     margin: 0;
@@ -56,7 +56,7 @@ body{
 /* shared style ends */
 
 .header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-image: linear-gradient(to bottom, #000000, #232222, #413f40, #625f5f, #848080, #848080, #848080, #848080, #625f5f, #413f40, #232222, #000000);
     /* max-width: 1440px; */
     /* max-height: 900px; */
     /* border: 1px solid red; */ 
@@ -71,7 +71,7 @@ body{
     align-items: center;
     margin: 0px auto;
     padding: 20px;
-    max-width: 1460px;
+    max-width: 1440px;
     /* max-height: 46px; */
 }
 .fit{
@@ -135,6 +135,7 @@ nav li a{
     border: 1px solid rgb(80, 79, 79);
 }
 .banner-img{
+    object-fit: cover;
     background-size: cover;
     background-position: center;
     margin-left: 250px;
@@ -151,8 +152,8 @@ nav li a{
     max-width: 25px;
     max-height: 25px;
     position: absolute;
-    top: -200px;
-    left: 1050px;
+    bottom: 120px;
+    right: 420px;
 }
 .ham-menu{
     display: none;
@@ -167,11 +168,12 @@ nav li a{
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
     position: absolute;
-    top: -380px;
-    left: 1370px;
+    bottom: 280px;
+    right: 60px;
     border-radius: 5px;
     padding: 10px;
     box-sizing: border-box;
+    
 }
 .dot{
     height: 25px;
@@ -191,8 +193,8 @@ nav li a{
     background-color: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(10px);
     position: absolute;
-    top: -170px;
-    left: 1060px; 
+    bottom: 50px;
+    right: 350px; 
     border-radius: 5px;
     padding: 10px;
 
@@ -290,6 +292,7 @@ nav li a{
    width: 100%;
    height: 100%;
    transform: translate(-45% , 30%) scale(2.5);
+   object-fit: cover;
 }
  /* run section ends */
 
@@ -298,6 +301,7 @@ nav li a{
 .bmi-main-section{
     max-width: 100%;
     padding: 30px;
+    margin: 20px;
     /* border: 2px solid red; */
 }
 .bmi-head{
@@ -308,7 +312,6 @@ nav li a{
     max-width: 670px;
     padding: 30px;
  }
-
 .bmi-head h1{
     color: white;
     font-size: 2.2rem;
@@ -320,47 +323,43 @@ nav li a{
     padding: 10px;
     margin-bottom: 30px;
 }
+
+/* bmi all content */
+
 .bmi-content{
     max-width: 100%;
-    /* height: 500px; */
-    /* margin: 0 auto; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 20px;
     align-items: center;
     justify-content: space-between;
     background-color: rgba(35, 33, 33, 0.817);
     box-sizing: border-box;
+    padding-bottom: 20px;
+   
 }
 
 .bmi-table, .bmi-form{
     display: flex;
     flex-direction: column;
+    justify-content:center;
     align-items: center;
-    margin: 50px;
     width: 50%;
-    /* width: 400px;
-    height: 310px; */
  }
 
-.bmi-table{
-    width: 300px;
-    /* border: 2px solid yellow; */
-}
-.bmi-table h1{
-    /* margin: -10px; */
-}
 .bmi-text{
     color: white;
-    padding: 50px;
+    padding: 40px;
+    width: 55%;
 }
 
 .bmi-table th,td{
     border: 1px solid gray;
     padding: 5px 10px;
-    /* border-collapse: collapse; */
+    padding: 12px;
 }
 .table-content{
     border-collapse: collapse;
+    width: 40%;
 }
 
 .bmi-form{
@@ -371,8 +370,12 @@ nav li a{
     margin-top: 20px;
     /* border: 2px solid yellow; */
     padding: 10px;
-    width: 100%;
+    /* width: 100%; */
    
+}
+.form-content{
+    width: 60%;
+    padding: 10px 0px;
 }
 .form-content h1{
     padding: 10px;
@@ -380,68 +383,40 @@ nav li a{
 .form-content p{
     padding: 10px;
 }
-.cal-form{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    /* grid-template-rows: repeat(12, 1fr); */
-    grid-gap: 10px;
-    margin-top: 20px;
-}
-.cal-form input{
-     /* margin-top: 20px; */
-     padding: 10px;
-}
-
-.child-1{
-    /* background-color: gray; */
-    grid-column: 1/span 6;
-    /* grid-row: 1/span 2; */
-    border-radius: 5px;
-    /* width: 200px;
-    height: 48px; */
-}
-.child-2{
-    /* background-color: gray; */
-    grid-column: 7/span 12;
-    /* grid-row: 1/span 6; */
-    border-radius: 5px;
-    width: 220px;
-    /* height: 48px; */
-
-}
-.child-3{
-    /* background-color: gray; */
-    grid-column: 1/span 6;
-    /* grid-row: 1/span 2; */
-    border-radius: 5px;
-    /* height: 48px; */
-}
-.child-4{
-    /* background-color: gray; */
-    grid-column: 7/span ;
-    /* grid-row: 1/ span 2; */
-    border-radius: 5px;
-    width: 220px;
-    /* height: 48px; */
-}
-.child-5{
-    
-    grid-column: 1/span 6;
-    /* grid-row: 5/span 4; */
-    border-radius: 5px;
-
-    /* height: 48px; */
-}
  
-input[type=text] , select, ::placeholder{
-    border: 1px solid gray;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+  }
+
+  .input-1,
+  .input-2 {
+    grid-column: span 1;
+  }
+
+  .input-3,
+  .input-4 {
+    grid-column: span 1;
+  }
+
+  .input-5 {
+    grid-column: span 2;
+  }
+
+input[type=text] , select{
+    border: 1px solid rgb(108, 107, 107);
     width: 100%;
     border-radius: 5px;
     box-sizing: border-box;
-    color: rgb(54, 53, 53);
+    color: rgb(128, 128, 128);
     background-color: rgba(255, 255, 255, 0.1);
     padding: 10px;
 
+}
+::placeholder{
+    color: rgb(128, 128, 128);
 }
 
 input[type=submit]{
@@ -452,12 +427,15 @@ input[type=submit]{
     border: none;
     border-radius: 25px;
     cursor: pointer;
-   
+    margin-top: 20px;
 }
 
 input[type=submit]:hover{
     background-color: rgb(0, 255, 166);
 }
+
+
+
 /* BMI section style End */
 
 /* Our Team  Style Start */

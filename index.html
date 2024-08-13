@@ -158,35 +158,20 @@
                         <h1 class="white">Calculate Your BMI</h1>
                         <P class="gray-c">We believe fitness should be accessible to everyone, everywhere, regardless of  income or access to a gym</P>
                     </div>
-                    <form class="cal-form">
-                        <label for="height" class="child-1">
-                            <input type="text" placeholder="Height/cm" name="" id="">
-                        </label>
-                        <label for="weight" class="child-2">
-                            <input type="text" placeholder="Weight" name="" id="">
-                        </label>
-                        <label for="age" class="child-3">
-                            <input type="text" placeholder="Age" name="age" id="">
-                        </label>
-
-                            <label for="sex" class="child-4">
-                                <!-- <input type="text" placeholder="sex" name="sex" id=""> -->
-                                <select name="sex" id="sex">
-                                    <option value="men">Sex</option>
-                                    <option value="women">men</option>
-                                    <option value="others">women</option>
-                                </select>
-                            </label>
-                        <label for="activity" class="child-5">
-                            <!-- <input type="text" placeholder="Select an activity factor " name="" id=""> -->
-                            <select name="Select an activity factor" id="activity">
-                                <option value="activity">Select an activity factor</option>
-                                <option value="activity">play games</option>
-                            </select>
-                        </label>
-                    </form>
-                    <input  type="submit" value="submit">
-                </div>
+                <div class="grid-container">
+                        <input type="text" placeholder="Height/cm" class="input-1" />
+                        <input type="text" placeholder="Weight" class="input-2" />
+                        <input type="text" placeholder="Age" class="input-3" />
+                        <select name="sex" id="sex" class="input-4">
+                            <option value="men">Sex</option>
+                            <option value="women">men</option>
+                            <option value="others">women</option>
+                        </select>
+                        <select name="Select an activity factor" id="activity" class="input-5"> 
+                            <option value="activity">Select an activity factor</option>
+                            <option value="activity">play games</option>
+                        </select>
+                    <input  type="submit" value="Calculate">
             </div>
             </section>
               <!-- BMI section end -->
