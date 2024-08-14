@@ -60,7 +60,6 @@
         max-width: 100%;
         width: 100%;
     }
-    
     .habit-title{
         flex-direction: column;
         max-width: 100%;
@@ -144,6 +143,7 @@
         padding: 10px;
     }
     /* meet-team */
+   
     .team-img{
         grid-template-columns: repeat(1,1fr);
         padding: 20px;
@@ -151,11 +151,14 @@
     .special-1{
         display: none;
     }
-
-    /*  */
+    .text-t{
+        font-size: 2.2rem;
+    }
+    /*review section  */
     .review-main{
         flex-direction: column;
     }
+
     /* footer */
     .footer-main{
        height: 700px;

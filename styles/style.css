@@ -454,7 +454,7 @@ input[type=submit]:hover{
 }
 
 .text-t{
-    font-size: 46px;
+    font-size: 2.7rem;
     padding: 20px;
 }
 .meet-team p{
@@ -520,6 +520,7 @@ input[type=submit]:hover{
     /* display: grid;
     grid-template-columns: repeat(3,1fr); */
     gap: 20px; 
+    padding: 50px 0;
 }
 .review-card{
     background-color: rgba(35, 33, 33, 0.817);
