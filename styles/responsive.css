@@ -1,4 +1,10 @@
 /* responsive */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .p-icon img{
+        display: none;
+      }
+}
+
 @media screen and (max-width: 576px) {
     .header{
         padding-bottom: 0px;
@@ -17,7 +23,7 @@
     }
     .banner-content{
         max-width: 100%;
-        width: 100%;
+        width: 80%;
         margin: 30px;
     }
     .health{
@@ -37,12 +43,15 @@
 
     .card-1{
         max-width: 100%;
-        bottom: 300px;
-        right: 100px;
+        bottom: 350px;
+        right: 150px;
+    }
+    .card-1 h1{
+        font-size: 2.4rem;
     }
     .card-2{
         max-width: 100%;
-        bottom: 80px;
+        bottom: 150px;
         right: 320px;
     }
 
@@ -132,6 +141,11 @@
     .special-1{
         display: none;
     }
+
+    /*  */
+    .review-main{
+        flex-direction: column;
+    }
     /* footer */
     .footer-main{
        height: 700px;
@@ -153,7 +167,7 @@
         padding-top: 10px;
     }
     .last-content{
-        margin-top: 50%;
+        margin-top: 45%;
     }
        
  }
