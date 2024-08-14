@@ -44,7 +44,7 @@
     .card-1{
         max-width: 100%;
         bottom: 350px;
-        right: 150px;
+        right: 100px;
     }
     .card-1 h1{
         font-size: 2.4rem;
@@ -52,7 +52,7 @@
     .card-2{
         max-width: 100%;
         bottom: 150px;
-        right: 320px;
+        right: 300px;
     }
 
     /* habit */
@@ -82,8 +82,7 @@
     .run{
         flex-direction: column;
         max-width: 100%;
-        /* width: 80%; */
-        height: 480px;
+        height: 500px;
         align-items: center;
     }
     .run-card{
@@ -101,6 +100,9 @@
      }
      .run-card button{
         width: 100%;
+     }
+     .run-image{
+        margin: 10px;
      }
     .run-image img{
         width: 100%;
@@ -123,12 +125,20 @@
         margin: 0;
         width: 100%;
      }
+     .bmi-text{
+        padding: 20px 0;
+        font-size: 1.2rem;
+        width: 80%;
+     }
      .table-content{
         width: 80%;
      }
      .form-content{
         padding: 10px;
         width: 100%;
+    }
+    .form-content h1{
+        font-size: 1.3rem;
     }
     .grid-container{
         padding: 10px;
