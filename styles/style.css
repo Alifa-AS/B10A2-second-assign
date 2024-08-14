@@ -57,7 +57,7 @@ body{
 /* shared style ends */
 
 .header{
-    background-image: linear-gradient(to bottom, #000000, #232222, #413f40, #625f5f, #848080, #848080, #848080, #848080, #625f5f, #413f40, #232222, #000000);
+    background-image: linear-gradient(to bottom, #000000, #131313, #1f1f1f, #2b2b2b, #373737, #373737, #373737, #373737, #2b2b2b, #1f1f1f, #131313, #000000);
     /* max-width: 1440px; */
     /* max-height: 900px; */
     /* border: 1px solid red; */ 
