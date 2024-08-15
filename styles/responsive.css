@@ -8,6 +8,8 @@
 @media screen and (max-width: 576px) {
     .header{
         padding-bottom: 0px;
+        max-width: 100%;
+        margin: 0 auto;
     }
     .ham-menu{
          display: flex;
@@ -18,12 +20,15 @@
     .navbar{
         display: none;
     }
+    .banner-head{
+        margin-bottom: 50px;
+    }
     .banner-title{
         flex-direction: column;
     }
     .banner-content{
         max-width: 100%;
-        width: 85%;
+        width: 82%;
         margin: 30px;
     }
     .health{
@@ -35,7 +40,7 @@
     }
     .banner-img{
         margin-left: 20px;
-        margin-top: 0px;
+        width: 100%;
     } 
     .p-icon, .p-icon img{
       display: none;
@@ -51,9 +56,15 @@
     }
     .card-2{
         max-width: 100%;
-        bottom: 140px;
-        right: 280px;
+        bottom: 170px;
+        right: 270px;
     }
+     /* main */
+     .main-part{
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+     }
 
     /* habit */
     .change-habit{
@@ -180,7 +191,7 @@
         padding-top: 10px;
     }
     .last-content{
-        margin-top: 45%;
+        margin-top: 50%;
     }
        
  }
